@@ -3,22 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>የኢትዮጵያ ቢንጎ</title>
+    <title>ፕሮ ቢንጎ - 150 ካርታላ</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class="game-container">
-        <h1>የቢንጎ ጨዋታ</h1>
-        <div class="status">ቁጥር ንካና መስመር ስራ!</div>
-        
-        <div id="bingo-board" class="board"></div>
-
-        <div class="controls">
-            <button id="reset-btn">አዲስ ጌም ጀምር</button>
-        </div>
+    <div class="header">
+        <h1>150 ፕሮ የቢንጎ ካርታላዎች</h1>
+        <button onclick="generateAllCards()">ሁሉንም አዲስ አድርግ</button>
     </div>
-
+    <div id="cards-container" class="cards-grid"></div>
     <script src="script.js"></script>
 </body>
 </html>
